@@ -22,7 +22,7 @@ Before running this project, you'll need:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/TracyK10/spotify-music-finder
+   git clone https://github.com/TracyK10/spotify-music-finder.git
    cd spotify-music-finder
    ```
 
