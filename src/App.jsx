@@ -64,7 +64,9 @@ function App() {
 
   // Construct login URL
   const loginUrl = `${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`;
-
+  console.log(
+    `${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`,
+  );
   return (
     <div className="min-h-screen bg-gradient-to-br from-neutral-50 via-stone-50 to-emerald-50 text-neutral-900 flex flex-col items-center px-4 py-8">
       <div className="w-full max-w-2xl bg-white shadow-lg rounded-2xl p-8 mt-10 backdrop-blur-md border border-gray-100">
